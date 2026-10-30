@@ -136,7 +136,8 @@ Charlotte Damewood:
 Blanca Albuixech-Robinson: Completed the verification and convergence studies, including implementation of the numerical accuracy and validation tests used to confirm the correctness of the Forward Euler method. Participated in group discussions that defined the project premise and study objectives. Prepared the repository README and assisted with report formatting and organization. 
 Estimated contribution: 20–25%.
 
-Teagan Arndt: 
+Teagan Arndt: Developed the central parameters file that defined physical constants, modeling assumptions, initial system conditions, as well as forces, loads, and density. Initiated the Word document, establishing layout and formatting prior to the final report. Conducted review of the code repository and document drafts to verify technical accuracy and ensured alignment between the written analysis and code output. Participated actively in all team discussions, focusing on clarifying project goals and identifying discrepancies.  
+Estimated contribution: 20-25%.
 
 
 ## Generative AI
