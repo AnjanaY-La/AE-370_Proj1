@@ -15,8 +15,8 @@ Python **[3.x]** with `numpy` and `matplotlib` (add `scipy` if any file uses it)
 pip install numpy matplotlib
 ```
 
-No ODE library advances the solution. Time stepping is our own forward Euler in `euler.py`.
-`convergence.py` also contains an RK4 step, used only as an accuracy reference for error studies
+No ODE library advances the solution. Time stepping is our own forward Euler in `euler.ipynb`.
+`convergence.ipynb` also contains an RK4 step, used only as an accuracy reference for error studies
 and never in the study itself.
 
 ## Repository Layout
@@ -39,11 +39,11 @@ All files must be in the same folder, and every script should be run from that f
 Run the scripts in this order:
 
 ```
-python verification.py   # about 30 s; prints PASS/FAIL for each check
-python convergence.py    # a few minutes; add --quick for a faster, coarser run
-python baseline.py       # [what it saves, where]
-python sweep.py          # [runtime, what it saves, where]
-python plots.py          # [which figures it writes, where]
+python verification.ipynb   # about 30 s; prints PASS/FAIL for each check
+python convergence.ipynb    # a few minutes; add --quick for a faster, coarser run
+python baseline.ipynb       # [what it saves, where]
+python sweep.ipynb          # [runtime, what it saves, where]
+python plots.ipynb          # [which figures it writes, where]
 ```
 
 `verification.py` should report that all checks passed before any results are trusted.
@@ -96,33 +96,41 @@ which has first-order global error in $\Delta t$.
 ## Conventions
 
 SI units everywhere (m, s, kg, rad). Entry angles are negative when descending and are converted
-from degrees to radians in `parameters.py`.
+from degrees to radians in `parameters.ipynp`.
 
 ## Parameters
 
 | Quantity | Value | Source |
 |---|---|---|
-| Entry altitude $h_0$ | 121.92 km | [cite] |
-| Entry speed $V_0$ | [value] | [cite] |
-| Baseline entry angle $\gamma_0$ | $-5.66^\circ$ | [cite] |
-| Mass $m$ | [value] kg | [cite] |
-| Reference area $A$ | [value] m² | [cite] |
-| Drag coefficient $C_D$ | [value] | [cite] |
-| Lift-to-drag ratio $L/D$ | 0.3 | [cite] |
-| Time step $\Delta t$ | [from convergence.py] s | convergence study |
+| Entry altitude $h_0$ | 121.92 km | FAA Returning form Space Guidance |
+| Entry speed $V_0$ | [value] | Orion Artemis I Entry Performance |
+| Baseline entry angle $\gamma_0$ | $-5.66^\circ$ | Orion Artemis I Entry Performance |
+| Mass $m$ | [value] kg | Orion Reference Guide |
+| Reference area $A$ | [value] m² | Orion Reference Guide |
+| Drag coefficient $C_D$ | [value] | Allen and Eggers; Orion Entry Studies |
+| Lift-to-drag ratio $L/D$ | 0.3 | Orion skip-entry studies |
+| Time step $\Delta t$ | [from convergence.ipynb] s | convergence study |
 
 ## Notes on Verification
 
-`verification.py` compares against closed-form results rather than only checking convergence:
+`verification.ipynb` compares against closed-form results rather than only checking convergence:
 the exact discrete Euler map, a second from-scratch implementation of the equations, conservation
 of energy and angular momentum in vacuum, the Allen–Eggers limit, and an independent RK4 solution.
-If `parameters.py`, `model.py`, or `euler.py` change names or signatures, update the interface
-block at the top of `verification.py`.
+If `parameters.ipynb`, `model.ipynb`, or `euler.ipynb` change names or signatures, update the interface
+block at the top of `verification.ipynb`.
 
 ## Contributions
 
-[One line per member, matching the contributions section of the report.]
+Anjana Yaramaka: 
+
+Charlotte Damewood: 
+
+Blanca Albuixech-Robinson: Completed the verification and convergence studies, including implementation of the numerical accuracy and validation tests used to confirm the correctness of the Forward Euler method. Participated in group discussions that defined the project premise and study objectives. Prepared the repository README and assisted with report formatting and organization. 
+Estimated contribution: 20–25%.
+
+Teagan Arndt: 
+
 
 ## Generative AI
 
-[Short description of how AI was used, matching the Acknowledgments section of the report.]
+Generative AI tools were used throughout the project to support brainstorming, software development, and documentation. AI was initially used to help generate and evaluate potential project ideas before the team selected an atmospheric skip-entry study inspired by the Artemis I mission. AI was also used to assist with writing and debugging code for the numerical simulations, generating portions of the repository documentation, and improving report formatting and presentation. All generated content, code, analyses, and conclusions were reviewed, modified where necessary, and validated by the project team prior to inclusion in the final submission.
