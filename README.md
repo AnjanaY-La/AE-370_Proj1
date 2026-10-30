@@ -119,6 +119,14 @@ of energy and angular momentum in vacuum, the Allen–Eggers limit, and an indep
 If `parameters.ipynb`, `model.ipynb`, or `euler.ipynb` change names or signatures, update the interface
 block at the top of `verification.ipynb`.
 
+##Acknowledgements
+
+This project was inspired by the atmospheric skip-entry technique demonstrated by NASA's Orion spacecraft during the Artemis I mission. Vehicle properties, entry conditions, and performance characteristics were obtained from NASA Orion mission documentation, Orion reference materials, Orion entry-performance analyses, historical atmospheric-entry literature, and FAA reentry guidance documents.
+
+Several modeling assumptions were made to keep the problem tractable for a first numerical investigation. The Earth was modeled as spherical and non-rotating, the atmosphere was represented using an exponential density model, vehicle mass and aerodynamic coefficients were assumed constant throughout entry, bank angle effects were neglected, and thrust was assumed to be zero during atmospheric flight. These assumptions allow the governing equations to capture the primary dynamics of skip entry while remaining suitable for analysis with a Forward Euler time-marching method.
+
+The authors acknowledge the use of generative artificial intelligence tools during this project. AI was used primarily during the brainstorming stage to explore possible project ideas and identify suitable aerospace dynamical systems for study. AI tools were also used to assist in writing code implementations, debugging portions of the numerical model, and improving document formatting and presentation. All final engineering decisions, model development, verification procedures, analysis, and interpretation of results were reviewed and validated by the project team.
+
 ## Contributions
 
 Anjana Yaramaka: 
