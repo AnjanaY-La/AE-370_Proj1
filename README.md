@@ -107,7 +107,7 @@ from degrees to radians in `parameters.ipynp`.
 | Baseline entry angle $\gamma_0$ | $-5.66^\circ$ | Orion Artemis I Entry Performance |
 | Mass $m$ | [value] kg | Orion Reference Guide |
 | Reference area $A$ | [value] m² | Orion Reference Guide |
-| Drag coefficient $C_D$ | [value] | Allen and Eggers; Orion Entry Studies |
+| Drag coefficient $C_D$ | [ 0.8 | Allen and Eggers; Orion Entry Studies |
 | Lift-to-drag ratio $L/D$ | 0.3 | Orion skip-entry studies |
 | Time step $\Delta t$ | [from convergence.ipynb] s | convergence study |
 
