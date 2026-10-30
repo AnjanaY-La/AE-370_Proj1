@@ -104,12 +104,12 @@ from degrees to radians in `parameters.ipynp`.
 |---|---|---|
 | Entry altitude $h_0$ | 121.92 km | FAA Returning form Space Guidance |
 | Entry speed $V_0$ | [value] | Orion Artemis I Entry Performance |
-| Baseline entry angle $\gamma_0$ | $-5.66^\circ$ | Orion Artemis I Entry Performance |
-| Mass $m$ | [value] kg | Orion Reference Guide |
+| Baseline entry angle $\gamma_0$ | $$ | Orion Artemis I Entry Performance |
+| Mass $m$ | 9300 kg | Orion Reference Guide |
 | Reference area $A$ | [value] m² | Orion Reference Guide |
 | Drag coefficient $C_D$ | [ 0.8 | Allen and Eggers; Orion Entry Studies |
 | Lift-to-drag ratio $L/D$ | 0.3 | Orion skip-entry studies |
-| Time step $\Delta t$ | [from convergence.ipynb] s | convergence study |
+| Time step $\Delta t$ | 0.1 s | convergence study |
 
 ## Notes on Verification
 
