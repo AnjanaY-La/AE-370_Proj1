@@ -119,7 +119,7 @@ of energy and angular momentum in vacuum, the Allen–Eggers limit, and an indep
 If `parameters.ipynb`, `model.ipynb`, or `euler.ipynb` change names or signatures, update the interface
 block at the top of `verification.ipynb`.
 
-##Acknowledgements
+## Acknowledgements
 
 This project was inspired by the atmospheric skip-entry technique demonstrated by NASA's Orion spacecraft during the Artemis I mission. Vehicle properties, entry conditions, and performance characteristics were obtained from NASA Orion mission documentation, Orion reference materials, Orion entry-performance analyses, historical atmospheric-entry literature, and FAA reentry guidance documents.
 
