@@ -130,11 +130,10 @@ The authors acknowledge the use of generative artificial intelligence tools duri
 ## Contributions
 
 Anjana Yaramaka: Developed the forward Euler method
-file and a baseline configuration files as well as compiling all of the different files that everyone has worked on into 1 file
-that is reproducible and there are no syntax errors. Additonally I formatted the entire doc and helped with developing
-the idea and intial conditions. Estimated contribution: 20-25%
+file and a baseline configuration files as well as compiling all of the different files that everyone has worked on into 1 file that is reproducible and there are no syntax errors. Additonaly, I formatted the entire doc and helped with developing the idea and intial conditions. Estimated contribution: 20-25%
 
-Charlotte Damewood: 
+Charlotte Damewood: Wrote premise and methods section, completed sweep and plots sections of code, helped
+outline initial problem and numbers needed to solve it, participated actively in all team discussions. Estimated contribution: 20–25%.
 
 Blanca Albuixech-Robinson: Completed the verification and convergence studies, including implementation of the numerical accuracy and validation tests used to confirm the correctness of the Forward Euler method. Participated in group discussions that defined the project premise and study objectives. Prepared the repository README and assisted with report formatting and organization. 
 Estimated contribution: 20–25%.
