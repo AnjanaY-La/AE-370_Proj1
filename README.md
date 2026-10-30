@@ -129,7 +129,10 @@ The authors acknowledge the use of generative artificial intelligence tools duri
 
 ## Contributions
 
-Anjana Yaramaka: 
+Anjana Yaramaka: Developed the forward Euler method
+file and a baseline configuration files as well as compiling all of the different files that everyone has worked on into 1 file
+that is reproducible and there are no syntax errors. Additonally I formatted the entire doc and helped with developing
+the idea and intial conditions. Estimated contribution: 20-25%
 
 Charlotte Damewood: 
 
