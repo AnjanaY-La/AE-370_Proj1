@@ -103,8 +103,8 @@ from degrees to radians in `parameters.ipynp`.
 | Quantity | Value | Source |
 |---|---|---|
 | Entry altitude $h_0$ | 121.92 km | FAA Returning form Space Guidance |
-| Entry speed $V_0$ | [value] | Orion Artemis I Entry Performance |
-| Baseline entry angle $\gamma_0$ | $$ | Orion Artemis I Entry Performance |
+| Entry speed $V_0$ | varies | Orion Artemis I Entry Performance |
+| Baseline entry angle $\gamma_0$ | $-6$ | Orion Artemis I Entry Performance |
 | Mass $m$ | 9300 kg | Orion Reference Guide |
 | Reference area $A$ | [value] m² | Orion Reference Guide |
 | Drag coefficient $C_D$ | [ 0.8 | Allen and Eggers; Orion Entry Studies |
